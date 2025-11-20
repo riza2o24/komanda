@@ -141,6 +141,7 @@
 /* otabek footer  start */
 .grid{
     display: grid;
+    justify-content: space-between;
     grid-template-columns: (5, 1fr);
     grid-template-rows: (1, 1fr);
     margin-bottom: 30px;
@@ -193,5 +194,26 @@
 }
 
 .footer__footer{
-    
+    padding: 30px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer__footer--paragrf{
+    font-size: 14px;
+    font-weight: 400;
+    color: #363853;
+}
+
+.footer__footer--ul{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.footer__ul--li{
+    font-size: 14px;
+    font-weight: 400;
+    color: #646464;
 }
