@@ -1,4 +1,5 @@
-
+/* Rubik */
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 
 *{
     margin: 0;
@@ -6,6 +7,7 @@
     box-sizing: border-box;
     text-decoration: none;
     list-style: none;
+    font-family: "Rubik", sans-serif;
 }
 
 .conteiner{
@@ -17,6 +19,100 @@
 
 
 /* otabek start */
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.header__text{
+    font-size: 33px;
+    font-weight: 500;
+    color: #363853;
+}
+
+.header__span{
+    color: #FF7A50;
+}
+
+.header__nav{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.header__nav--link{
+    font-size: 18px;
+    font-weight: 400;
+    color: #363853;
+}
+
+.header__nav--link:active{
+    color: #FF7A50;
+}
+
+.header__nav--btn{
+    padding: 14px 25px;
+    background-color: #FF7A50;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-size: 400;
+    font-weight: 18px;
+}
+
+.section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+
+.section__text--text{
+    width: 530px;
+    font-size: 66px;
+    font-family: 500;
+    color: #363853;
+}
+
+.section__text--span{
+    color: #FF7A50;
+}
+
+
+.section__text--paragrf{
+    width: 513px;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 25px;
+    margin-bottom: 40px;
+    color: #363853;
+}
+
+.section__button{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.section__button--btn{
+    padding: 12px 20px;
+    background-color: #FF7A50;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+    font-family: 400;
+}
+
+.section__image{
+    width: 689px;
+    height: 681px;
+}
+
+
 
 /* otabek end */
 
