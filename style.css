@@ -1,8 +1,7 @@
-
 /* Rubik */
 @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -11,15 +10,15 @@
     font-family: "Rubik", sans-serif;
 }
 
-.conteiner {
-	width: 100%;
-	max-width: 1440px;
-	margin: auto;
-	padding: 0 50px;
+.conteiner{
+    width: 100%;
+    max-width: 1440px;
+    margin: auto;
+    padding: 0 50px;
 }
 
 /* otabek start */
-.header{
+.header {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -27,33 +26,33 @@
     margin-bottom: 50px;
 }
 
-.header__text{
+.header__text {
     font-size: 33px;
     font-weight: 500;
     color: #363853;
 }
 
-.header__span{
+.header__span {
     color: #FF7A50;
 }
 
-.header__nav{
+.header__nav {
     display: flex;
     align-items: center;
     gap: 50px;
 }
 
-.header__nav--link{
+.header__nav--link {
     font-size: 18px;
     font-weight: 400;
     color: #363853;
 }
 
-.header__nav--link:active{
+.header__nav--link:active {
     color: #FF7A50;
 }
 
-.header__nav--btn{
+.header__nav--btn {
     padding: 14px 25px;
     background-color: #FF7A50;
     border-radius: 5px;
@@ -63,26 +62,26 @@
     font-weight: 18px;
 }
 
-.section{
+.section {
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-bottom: 60px;
 }
 
-.section__text--text{
+.section__text--text {
     width: 530px;
     font-size: 66px;
     font-family: 500;
     color: #363853;
 }
 
-.section__text--span{
+.section__text--span {
     color: #FF7A50;
 }
 
 
-.section__text--paragrf{
+.section__text--paragrf {
     width: 513px;
     font-size: 20px;
     font-weight: 400;
@@ -91,13 +90,13 @@
     color: #363853;
 }
 
-.section__button{
+.section__button {
     display: flex;
     align-items: center;
     gap: 30px;
 }
 
-.section__button--btn{
+.section__button--btn {
     padding: 12px 20px;
     background-color: #FF7A50;
     border: none;
@@ -107,7 +106,7 @@
     font-family: 400;
 }
 
-.section__image{
+.section__image {
     width: 689px;
     height: 681px;
 }
@@ -117,44 +116,153 @@
 /* otabek end */
 
 /* alisaad start */
+/* rubik */
+
+.forst {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #EFEFEF33;
+}
+
+.divforst--text {
+    font-family: sans-serif;
+    font-size: 36px;
+}
+
+.b {
+    color: #FF7A50;
+}
+
+.divsecond {
+    display: flex;
+    justify-content: space-between;
+    gap: 80px;
+    margin-top: 80px;
+}
+
+.divsecond--btn {
+    border-radius: 10px;
+    padding: 20px 40px;
+    font-size: 20px;
+    border: none;
+    background-color: whitesmoke;
+
+}
+
+.divsecond--btn:hover {
+    background-color: #FF7A50;
+}
+
+.divsecond--btn:hover {
+    color: white;
+}
+
+.second {
+    display: flex;
+    justify-content: center;
+    background-color: #EFEFEF33;
+}
+
+.divthree {
+    width: 500px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 50px;
+}
+
+.divthree--one {
+    height: 300px;
+    border: 2px solid whitesmoke;
+    border-radius: 15px;
+
+}
+
+.divthree--one:hover {
+    background-color: #508bff;
+}
+
+.divthree--img {
+    width: 200px;
+    height: 150px;
+    border-radius: 15px;
+}
+
+.divthree--img:hover {
+    background-color: #508bff;
+}
+
+.threeone--stra {
+    width: 150px;
+}
+
+.threeone--text {
+    font-size: 15px;
+}
+
+.threeonetext--two {
+    font-size: 20px;
+}
+
+.threeone--btn {
+    margin-top: 12px;
+    margin-left: 60px;
+    padding: 5px 10px;
+    display: block;
+    border-radius: 10px;
+    border: none;
+}
+
+.threeone--btn:active {
+    color: white;
+    background-color: #FF7A50;
+
+}
 
 /* alisaad end */
 
 /* shoxruxbek start */
-.container{
-  display: flex;
-  justify-content: center;
-  padding: 15px 50px;
-}
-.sarlavha{
+
+.sarlavha {
     margin-top: 90px;
 }
 
-h2{
+h2 {
     font-size: 30px;
     line-height: 34px;
     margin-bottom: 15px;
 }
-.sar1{
+
+.sar1 {
     color: #ff6b2b;
 }
-.sar2{
+
+.sar2 {
     color: #ff6b2b;
     font-weight: bold;
 }
-.matn{
+
+.matn {
     color: #666;
     margin-bottom: 20px;
     width: 90%;
 }
-.yozuvlar{
+
+.yozuvlar {
     margin-bottom: 20px;
 }
-.yozuvlar__ikki{
+
+.yozuvlar__ikki {
     margin-bottom: 8px;
     color: #555;
 }
-.btn{
+
+.btn {
     background: #ff6b2b;
     color: white;
     padding: 10px 22px;
@@ -168,89 +276,101 @@ h2{
 /* shoxruxbek end */
 
 /* azizbek start */
-.conteiner3{
-	width: 100%;
-	max-width: 1440px;
-	margin: auto;
-	padding: 0 85px;
+.conteiner3 {
+    width: 100%;
+    max-width: 1440px;
+    margin: auto;
+    padding: 0 85px;
 
 }
+
 .conteiner3__title {
-	text-align: center;
-	font-weight: 500;
-	font-size: 36px;
-	margin-top: 128px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 36px;
+    margin-top: 128px;
 }
+
 .cards {
-	width: 1170px;
-	height: 1000px;
-	display: flex;
-	justify-content: center;
-	flex-wrap: wrap;
-	gap: 43px;
+    width: 1170px;
+    height: 1000px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 43px;
 }
+
 .cards__card {
-	width: 360px;
-	height: 417px;
-	background: rgb(250, 249, 249);
-	margin-top:50px;
-	border-top-left-radius: 53px;
-	border-top-right-radius: 5px;
-	border-bottom-left-radius: 5px;
-	border-bottom-right-radius: 53px;
+    width: 360px;
+    height: 417px;
+    background: rgb(250, 249, 249);
+    margin-top: 50px;
+    border-top-left-radius: 53px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 53px;
 }
+
 .cards__card--title {
-	font-weight: 400;
-	font-size: 24px;
-	margin-top: 22px;
-	margin-left: 20px;
+    font-weight: 400;
+    font-size: 24px;
+    margin-top: 22px;
+    margin-left: 20px;
 }
+
 .card__img {
-	display: flex;
-	justify-content: center;
-	margin-top: 14px;
-	gap: 30px;
+    display: flex;
+    justify-content: center;
+    margin-top: 14px;
+    gap: 30px;
 }
+
 .cards__card--paragraf {
-	font-weight: 400px;
-	font-size: 18px;
-	color: rgba(54, 56, 83, 1);
+    font-weight: 400px;
+    font-size: 18px;
+    color: rgba(54, 56, 83, 1);
 }
 
 /* azizbek end */
 
 /* muslimbek start */
-.mobileapp__section{
+.mobileapp__section {
     width: 100%;
     height: 480px;
     border: 1px solid #000;
     display: grid;
-    grid-template-columns: repeat(2 , 1fr);
+    grid-template-columns: repeat(2, 1fr);
     /* background-color: rgba(239, 239, 239, 0.2); */
 }
-.mobileapp__section__left{
+
+.mobileapp__section__left {
     border: 1px solid #000;
 }
-.mobileapp__section__left--title{
+
+.mobileapp__section__left--title {
     font-size: 36px;
     line-height: 50px;
     color: rgba(54, 56, 83, 1);
     margin-top: 120px;
     margin-left: 50px;
 }
-.mobileapp__section__left--title__span{
+
+.mobileapp__section__left--title__span {
     font-size: 36px;
     line-height: 50px;
     color: #FF7A50;
 }
-.mobileapp__section__left--subtitle{
-    margin-top: 30px;font-weight: 400;
+
+.mobileapp__section__left--subtitle {
+    margin-top: 30px;
+    font-weight: 400;
     font-size: 20px;
     line-height: 30px;
     margin-left: 50px;
 
 }
-.mobileapp__section__left__imgpart{
+
+.mobileapp__section__left__imgpart {
     display: flex;
     margin-top: 30px;
     margin-left: 50px;
@@ -258,26 +378,29 @@ h2{
     gap: 35px;
 
 }
-.mobileapp__section__right{
+
+.mobileapp__section__right {
     border: 1px solid #000;
     background-image: url(./images/Group\ 178.png);
     background-repeat: no-repeat;
 }
 
-.client__section{
+.client__section {
     height: 531px;
     width: 100%;
     border: 1px solid #000;
     text-align: center;
     margin-top: 100px;
 }
-.client__section--title{
+
+.client__section--title {
     font-weight: 500;
     font-size: 36px;
     line-height: 100%;
     letter-spacing: 0.5px;
 }
-.client__section--title--span{
+
+.client__section--title--span {
     font-weight: 500;
     font-size: 36px;
     line-height: 100%;
@@ -286,17 +409,18 @@ h2{
 
 }
 
-.client__section--client{
+.client__section--client {
     width: 100%;
     height: 428px;
     /* border: 1px solid #000; */
     margin-top: 60px;
     display: grid;
-    grid-template-columns: repeat(2 , 1fr);
+    grid-template-columns: repeat(2, 1fr);
 
 }
 
-.client__section--client--right--info{
+
+.client__section--client--right--info {
     text-align: left;
     font-weight: 400;
     font-size: 20px;
@@ -305,7 +429,8 @@ h2{
     color: rgba(54, 56, 83, 1);
     margin-top: 5%;
 }
-.client__section--client--right--name{
+
+.client__section--client--right--name {
     font-weight: 500;
     font-size: 20px;
     line-height: 100%;
@@ -313,19 +438,23 @@ h2{
     text-align: left;
     margin-top: 74px;
 }
+
 /* muslimbek end */
 
 /* shoxruhbek search start */
-.search {
+
+
+.search{
+    width: 100%;
+    height: 312px;
     background: #e75c2e;
     color: white;
-    width: 800px;
     padding: 40px 50px;
     border-radius: 20px;
-    margin: 100px 180px;
+    text-align: center;
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
 }
 
 .title {
@@ -366,10 +495,11 @@ h2{
     cursor: pointer;
     font-size: 15px;
 }
+
 /* shoxruhbek search end */
 
 /* otabek footer  start */
-.grid{
+.grid {
     display: grid;
     justify-content: space-between;
     grid-template-columns: (5, 1fr);
@@ -377,11 +507,11 @@ h2{
     margin-bottom: 30px;
 }
 
-.grid__text{
+.grid__text {
     grid-column: 1/2;
 }
 
-.grid__text--li{
+.grid__text--li {
     font-size: 16px;
     font-family: 400;
     color: #363853;
@@ -391,58 +521,58 @@ h2{
     gap: 10px;
 }
 
-.grid__text--img{
+.grid__text--img {
     margin-top: 40px;
 }
 
-.grid__text:nth-child(2){
+.grid__text:nth-child(2) {
     grid-column: 2/3;
 }
 
-.grid__text:nth-child(3){
+.grid__text:nth-child(3) {
     grid-column: 3/4;
 }
 
-.grid__text:nth-child(4){
+.grid__text:nth-child(4) {
     grid-column: 4/5;
 }
 
-.grid__text:nth-child(5){
+.grid__text:nth-child(5) {
     grid-column: 5/6;
 }
 
-.grid__ul--lii{
+.grid__ul--lii {
     font-weight: 500;
     color: #202020;
 }
 
-.grid__ul--li{
+.grid__ul--li {
     font-size: 18px;
     font-weight: 400;
     color: #363853;
     margin-top: 50px;
 }
 
-.footer__footer{
+.footer__footer {
     padding: 30px 0;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.footer__footer--paragrf{
+.footer__footer--paragrf {
     font-size: 14px;
     font-weight: 400;
     color: #363853;
 }
 
-.footer__footer--ul{
+.footer__footer--ul {
     display: flex;
     align-items: center;
     gap: 50px;
 }
 
-.footer__ul--li{
+.footer__ul--li {
     font-size: 14px;
     font-weight: 400;
     color: #646464;
