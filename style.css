@@ -134,7 +134,103 @@
 
 
 /* muslimbek start */
+.mobileapp__section{
+    width: 100%;
+    height: 480px;
+    border: 1px solid #000;
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    /* background-color: rgba(239, 239, 239, 0.2); */
+}
+.mobileapp__section__left{
+    border: 1px solid #000;
+}
+.mobileapp__section__left--title{
+    font-size: 36px;
+    line-height: 50px;
+    color: rgba(54, 56, 83, 1);
+    margin-top: 120px;
+    margin-left: 50px;
+}
+.mobileapp__section__left--title__span{
+    font-size: 36px;
+    line-height: 50px;
+    color: #FF7A50;
+}
+.mobileapp__section__left--subtitle{
+    margin-top: 30px;font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    margin-left: 50px;
 
+}
+.mobileapp__section__left__imgpart{
+    display: flex;
+    margin-top: 30px;
+    margin-left: 50px;
+
+    gap: 35px;
+
+}
+.mobileapp__section__right{
+    border: 1px solid #000;
+    background-image: url(./images/Group\ 178.png);
+}
+
+.client__section{
+    height: 531px;
+    width: 100%;
+    border: 1px solid #000;
+    text-align: center;
+    margin-top: 100px;
+}
+.client__section--title{
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 100%;
+    letter-spacing: 0.5px;
+}
+.client__section--title--span{
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 100%;
+    letter-spacing: 0.5px;
+    color: #FF7A50;
+
+}
+
+.client__section--client{
+    width: 100%;
+    height: 428px;
+    /* border: 1px solid #000; */
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+
+}
+.client__section--client--left{
+    /* border: 1px solid #000; */
+}
+.client__section--client--right{
+    /* border: 1px solid #000; */
+}
+.client__section--client--right--info{
+    text-align: left;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 45px;
+    letter-spacing: 0.5px;
+    color: rgba(54, 56, 83, 1);
+    margin-top: 5%;
+}
+.client__section--client--right--name{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 100%;
+    color: rgba(255, 122, 80, 1);
+    text-align: left;
+    margin-top: 74px;
+}
 /* muslimbek end */
 
 
