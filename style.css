@@ -1,9 +1,4 @@
-* {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-	text-decoration: none;
-	list-style: none;
+
 /* Rubik */
 @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 
@@ -130,7 +125,7 @@
 /* shoxruxbek end */
 
 /* azizbek start */
-.conteiner3 {
+.conteiner3{
 	width: 100%;
 	max-width: 1440px;
 	margin: auto;
