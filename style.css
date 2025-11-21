@@ -251,12 +251,7 @@
     grid-template-columns: repeat(2 , 1fr);
 
 }
-.client__section--client--left{
-    /* border: 1px solid #000; */
-}
-.client__section--client--right{
-    /* border: 1px solid #000; */
-}
+
 .client__section--client--right--info{
     text-align: left;
     font-weight: 400;
