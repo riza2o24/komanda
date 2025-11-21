@@ -1,41 +1,81 @@
-
-
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    text-decoration: none;
-    list-style: none;
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+	list-style: none;
 }
 
-.conteiner{
-    width: 100%;
-    max-width: 1440px;
-    margin:  auto;
-    padding: 0 50px;
+.conteiner {
+	width: 100%;
+	max-width: 1440px;
+	margin: auto;
+	padding: 0 50px;
 }
-
 
 /* otabek start */
 
 /* otabek end */
 
-
 /* alisaad start */
 
 /* alisaad end */
-
 
 /* shoxruxbek start */
 
 /* shoxruxbek end */
 
-
-
 /* azizbek start */
+.conteiner3 {
+	width: 100%;
+	max-width: 1440px;
+	margin: auto;
+	padding: 0 85px;
+
+}
+.conteiner3__title {
+	text-align: center;
+	font-weight: 500;
+	font-size: 36px;
+	margin-top: 128px;
+}
+.cards {
+	width: 1170px;
+	height: 1000px;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	gap: 43px;
+}
+.cards__card {
+	width: 360px;
+	height: 417px;
+	background: rgb(250, 249, 249);
+	margin-top:50px;
+	border-top-left-radius: 53px;
+	border-top-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 53px;
+}
+.cards__card--title {
+	font-weight: 400;
+	font-size: 24px;
+	margin-top: 22px;
+	margin-left: 20px;
+}
+.card__img {
+	display: flex;
+	justify-content: center;
+	margin-top: 14px;
+	gap: 30px;
+}
+.cards__card--paragraf {
+	font-weight: 400px;
+	font-size: 18px;
+	color: rgba(54, 56, 83, 1);
+}
 
 /* azizbek end */
-
 
 /* muslimbek start */
 
